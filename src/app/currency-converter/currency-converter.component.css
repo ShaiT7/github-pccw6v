@@ -1,0 +1,25 @@
+.header{
+    font-size:large;
+}
+
+.center {
+    text-align: center;
+}
+
+.history {
+    font-size:medium;
+    color:mediumblue;
+}
+
+.margin {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.CurrValue {
+    font-weight: normal;
+}
+
+.error_class {
+    color: red;
+}

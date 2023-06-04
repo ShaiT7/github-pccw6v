@@ -1,0 +1,14 @@
+
+<div class="center">
+
+        <button mat-button (click)="clearHistory()" color="primary">Clear History</button>
+
+        <div *ngFor="let item of listHistory" class="history">
+            <span>{{item.value}}</span>
+            <span>&nbsp;{{item.from}}</span>
+            <span>&nbsp;=&nbsp;</span>
+            <span>{{item.total}}</span>
+            <span>&nbsp;{{item.to}}</span>
+        </div>
+
+</div>
